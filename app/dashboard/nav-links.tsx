@@ -14,7 +14,7 @@ import {
     const pathname = usePathname();
     return (
       <>
-        {links.map((link) => {
+        {/* {links.map((link) => {
           const LinkIcon = link.icon;
           return (
             <Link
@@ -32,7 +32,7 @@ import {
               <p className="hidden md:block">{link.name}</p>
             </Link>
           );
-        })}
+        })} */}
       </>
     );
   }
